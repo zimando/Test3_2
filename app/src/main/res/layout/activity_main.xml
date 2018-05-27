@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="#000000">
+
+    <!--定义"登陆界面"四个字的文本框，放在最上方的中央  -->
+    <TextView
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:background="#FF0000"
+        android:text="RED"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        />
+
+    <!--定义输入用户名的文本编辑框  -->
+    <TextView
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:background="#FFA500"
+        android:text="orange"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        />
+
+    <!--定义输入密码的文本编辑框  -->
+    <TextView
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="yellow"
+        android:background="#FFFF00"
+        android:layout_alignParentRight="true"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        />
+
+    <!--定义“取消”的按钮  -->
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#0000FF"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/orange"
+        android:text="blue"
+        android:textSize="17dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <!--定义“确定”的按钮，放在“取消”按钮的左边  -->
+    <TextView
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#7CFC00"
+        android:layout_marginRight="10dp"
+        android:layout_alignBaseline="@id/blue"
+        android:layout_toLeftOf="@id/blue"
+        android:text="green"
+        android:textSize="17dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#800080"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@id/blue"
+        android:layout_toRightOf="@id/blue"
+        android:text="indigo"
+        android:textSize="17dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/violet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#9370DB"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/blue"
+        android:text="violet"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+</RelativeLayout>
